@@ -5,6 +5,7 @@
 		"type": "AzureKeyVault",
 		"typeProperties": {
 			"baseUrl": "https://akv-academy-fabia.vault.azure.net/"
-		}
+		},
+		"description": "Teste 1234"
 	}
 }

@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-fabia"
+		},
+		"ls_adls_accountKey": {
+			"value": ""
+		},
+		"ls_AzureSqlDatabase_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqlserv-fabia.database.windows.net;Initial Catalog=AdventureWorksLT;User ID=sql-db-user-fabia"
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://stgfabialimeira.dfs.core.windows.net/"
+		},
+		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://akv-academy-fabia.vault.azure.net/"
+		}
+	}
+}
